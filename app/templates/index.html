@@ -1,16 +1,29 @@
-{% extends 'base.html' %}
-
-{% block title %}
-PetMatters - AI-Powered Pet Description Tools
-{% endblock %}
-
-{% block content %}
 <div>
     <!-- Hero Section -->
+    <section id="hero">
+        <img src="path/to/image1.jpg" alt="Happy pets and adopters" style="width:100%; max-width:600px; border-radius:15px;">
+        <h1>Introducing PetMatters</h1>
+        <p>At PetMatters, we help animal shelters find loving homes for pets through engaging descriptions in multiple languages.</p>
+    </section>
 
     <!-- AI Model Features Section -->
+    <section id="features">
+        <h2>How It Operates</h2>
+        <div style="display:flex; flex-direction:column; align-items:center;">
+            <img src="path/to/image2.jpg" alt="AI Platform interface" style="width:80%; max-width:500px;">
+            <ul style="text-align:left; max-width:600px;">
+                <li>Create a Draft Description with basic pet info.</li>
+                <li>Let our AI enhance the description to be engaging.</li>
+                <li>Generate new descriptions or translate to Dutch.</li>
+                <li>Share it across platforms to boost adoption chances.</li>
+            </ul>
+        </div>
+    </section>
 
     <!-- Call to Action Section -->
-
+    <section id="cta">
+        <h2>Start Now</h2>
+        <p>With PetMatters, shelters of all sizes can create captivating descriptions that help pets find forever homes.</p>
+        <button onclick="location.href='/signup'">Sign Up Now</button>
+    </section>
 </div>
-{% endblock %}
